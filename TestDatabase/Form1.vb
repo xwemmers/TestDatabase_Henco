@@ -144,11 +144,10 @@ Public Class Form1
 
     Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
 
-        'Dit is nieuw commentaar
 
         Dim cities = context.Cities.First(Function(c) c.Country = "Nederland")
 
-
+        ' Dit is commentaar (XW)
 
     End Sub
 End Class
